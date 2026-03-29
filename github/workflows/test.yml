@@ -9,7 +9,7 @@ jobs:
       - name: Clonar projeto
         uses: actions/checkout@v6
 
-      - name: Cypress run
+      - name: Cypress run-on
         uses: cypress-io/github-action@v7
         with:
           record: true

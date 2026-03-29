@@ -6,7 +6,7 @@ module.exports = defineConfig({
     baseUrl: 'https://automationpratice.com.br/',
     setupNodeEvents(on, config) {
     },
-    chromeWebSecurity: false,
+    
   },
   
 });
