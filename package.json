@@ -1,0 +1,19 @@
+{
+  "name": "mc6-pipeline",
+  "version": "1.0.0",
+  "description": "Projeto simples de automação de testes web com Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}

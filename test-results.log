@@ -1,0 +1,19 @@
+Erro ao executar testes: Error: The Test Runner unexpectedly exited via a exit event with signal SIGILL
+
+Please search Cypress documentation for possible solutions:
+
+https://on.cypress.io
+
+Check if there is a GitHub issue describing this crash:
+
+https://github.com/cypress-io/cypress/issues
+
+Consider opening a new issue.
+
+----------
+
+Platform: linux-x64 (Linux Mint - 22.2)
+Cypress Version: 14.5.4
+    at /home/alex/Área de trabalho/mc6-pipeline/node_modules/cypress/lib/errors.js:264:17 {
+  known: true
+}

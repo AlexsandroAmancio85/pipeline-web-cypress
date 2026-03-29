@@ -1,0 +1,39 @@
+
+> mc6-pipeline@1.0.0 test
+> cypress run
+
+It looks like this is your first time using Cypress: 14.5.4
+
+[STARTED] Task without title.
+[FAILED] Cypress failed to start.
+[FAILED] 
+[FAILED] This may be due to a missing library or dependency. https://on.cypress.io/required-dependencies
+[FAILED] 
+[FAILED] Please refer to the error below for more details.
+[FAILED] 
+[FAILED] ----------
+[FAILED] 
+[FAILED] /home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --no-sandbox
+[FAILED] /home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --smoke-test
+[FAILED] /home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --ping=739
+[FAILED] 
+[FAILED] ----------
+[FAILED] 
+[FAILED] Platform: linux-x64 (Linux Mint - 22.2)
+[FAILED] Cypress Version: 14.5.4
+Cypress failed to start.
+
+This may be due to a missing library or dependency. https://on.cypress.io/required-dependencies
+
+Please refer to the error below for more details.
+
+----------
+
+/home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --no-sandbox
+/home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --smoke-test
+/home/alex/.cache/Cypress/14.5.4/Cypress/Cypress: bad option: --ping=739
+
+----------
+
+Platform: linux-x64 (Linux Mint - 22.2)
+Cypress Version: 14.5.4
