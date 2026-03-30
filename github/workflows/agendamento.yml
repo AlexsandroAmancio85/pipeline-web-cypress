@@ -1,7 +1,7 @@
-name: Regressivo QAzando  # nome da pipeline
+name: Regressivo QAzando - Agendado  # nome da pipeline
 on: # momento de execução da pipeline
-  pull_request:
-      branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
  cypress-run:
     runs-on: ubuntu-latest
@@ -16,5 +16,3 @@ jobs:
           record: true
         env:
           CYPRESS_RECORD_KEY: f78af0e8-53d4-4f71-a72e-89c7e5d02d0b
-        
- 
