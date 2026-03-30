@@ -1,15 +1,16 @@
 name: Regressivo QAzando # nome da pipeline
 on: # momento de execução da pipeline
   pull_request:
-    branches: [main] 
+      branches: [main] 
 jobs:
  cypress-run:
     runs-on: ubuntu-latest
+
     steps:
       - name: Clonar projeto
         uses: actions/checkout@v6
 
-      - name: Cypress run
+      - name: Cypress runs-on
         uses: cypress-io/github-action@v7
         with:
           record: true
