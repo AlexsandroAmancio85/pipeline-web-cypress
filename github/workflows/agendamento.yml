@@ -10,9 +10,12 @@ jobs:
       - name: Clonar projeto
         uses: actions/checkout@v6
 
-      - name: Cypress runs-on
-        uses: cypress-io/github-action@v7
+      - name: Cypress.io
+        uses: cypress-io/github-action@v7.1.8
         with:
           record: true
         env:
           CYPRESS_RECORD_KEY: f78af0e8-53d4-4f71-a72e-89c7e5d02d0b
+
+
+          
